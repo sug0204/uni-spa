@@ -5,7 +5,7 @@ const SALT_ROUNDS = 10;
 
 class Account extends Model {
   static get tableName() {
-    return "account";
+    return "Account";
   }
 
   // Encrypt the password before storing it in the database.
